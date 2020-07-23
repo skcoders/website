@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Links - Learn HTML 3</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+
+
+    <div class="row">
+
+        <div class="col col-lg-10">
+            <div id="inner-text">
+                
+                    <h1>Links</h1>
+                    <hr/>
+                
+                <p>A link ("anchor") is a small span of text that will direct you to a different section in the page, or to a different 
+page. To create a link, you will need to specify where you would like the user to be directed to when the link is 
+clicked by specifying the <code>href</code> attribute.</p>
+<p>For example:</p>
+<pre><code>&lt;a href="https://www.google.com"&gt;A link to Google&lt;/a&gt;
+</code></pre>
+<p>To create a link to a different section in the same page, you will need to use a hash sign along with the element ID
+to where you would like the browser to jump to. For example:</p>
+<pre><code>&lt;a href="#faq"&gt;Click here to read the Frequently Asked Questions&lt;/p&gt;
+</code></pre>
+<p>The element ID is denoted using the <code>id</code> attribute:</p>
+<pre><code>&lt;h3 id="faq"&gt;Frequently asked questions&lt;/h3&gt;
+&lt;p&gt;The first rule about fight club is that you do not talk about fight club.&lt;/p&gt;
+</code></pre>
+<p>Let's try it out:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;My First Page&lt;/h1&gt;
+        &lt;p&gt;This is my first page.&lt;/p&gt;
+        &lt;a href="#faq"&gt;Click here to read the Frequently Asked Questions&lt;/a&gt;
+        &lt;hr/&gt;
+        &lt;h3 id="faq"&gt;Frequently asked questions&lt;/h3&gt;
+        &lt;p&gt;The first rule about fight club is that you do not talk about fight club.&lt;/p&gt;
+        &lt;p&gt;However, if you do have questions, please e-mail me at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="791f1616391b180b571a1614">[email&#160;protected]</a>&lt;/p&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            </div>
+
+
+
+</body>
+</html>

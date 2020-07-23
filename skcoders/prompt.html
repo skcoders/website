@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prompt JavaScript Page</title>
+  </head>
+  <body>
+    <h1>Java Script Page</h1>
+    <p>
+      This is my third JavaScript Page. Js Script on one page, prompt,
+      variables, AND, NOT and concatenation!
+    </p>
+
+    <!-- script definitions go here at the end of the page befor the closing /body  -->
+    <script type="text/javascript">
+      // this is a javascript comment
+      var vfirstname = prompt("Please enter your First Name:");
+      var vsurname = prompt("Please enter your Surname:");
+      if (vfirstname != null && vsurname != null) {
+        // && is logical AND ! mean NOT
+        alert(
+          "Your Name is: " +
+            vfirstname +
+            " " +
+            vsurname +
+            " --  Demostrating promt to get the variable values and concatenation of strings!"
+        );
+      }
+    </script>
+  </body>
+</html>
